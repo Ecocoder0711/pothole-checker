@@ -126,7 +126,7 @@ streamlit run 07_app.py --server.fileWatcherType none --browser.gatherUsageStats
 An AI assistant (Claude, by Anthropic) was used as a study and coding partner in this project. It helped with
 choosing the project scope, writing the first versions of the scripts, and explaining concepts. I ran all the
 steps and experiments on my own Mac, made the decisions together with the assistant, and studied the code so that
-I can explain it. *(Edit this paragraph so it describes exactly what you did yourself.)*
+I can explain it.
 
 ## 9. Credits
 
