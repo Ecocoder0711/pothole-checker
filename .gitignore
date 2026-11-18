@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.DS_Store
+*.zip
+cache/
+rdd_india/
+labels.csv
+results/*.pt
+!results/resnet.pt
+!results/small.pt
+results/*_quick*

@@ -1,0 +1,7 @@
+run,what_was_different,f1,f1_low,f1_high,precision,recall,accuracy,caught,missed,false_alarms,best_epoch,vs_best
+resnet_noweight,"ResNet, ready-made weights, no class weight",0.6904,0.641,0.735,0.6962,0.6846,0.8775,165,76,72,6,best
+resnet,"ResNet, ready-made weights  (our main recipe)",0.6898,0.639,0.734,0.7227,0.6598,0.8816,159,82,61,3,tied
+resnet_noaug,"ResNet, ready-made weights, no augmentation",0.6762,0.623,0.723,0.7933,0.5892,0.8874,142,99,37,6,tied
+resnet_lr0.001,"ResNet, ready-made weights, learning rate 0.001",0.5992,0.542,0.648,0.6094,0.5892,0.8427,142,99,91,8,worse
+resnet_nopretrain,"ResNet, NO ready-made weights",0.5626,0.505,0.617,0.5981,0.5311,0.8353,128,113,86,3,worse
+small,"small brain, built from zero",0.5196,0.458,0.576,0.6347,0.4398,0.8377,106,135,61,11,worse
